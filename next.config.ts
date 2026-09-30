@@ -4,7 +4,7 @@ import type { NextConfig } from "next";
  * Hosts allowed to reach dev resources (/_next/hmr etc.) cross-origin.
  * Defaults to the ngrok tunnel; override with DEV_ORIGINS="a.com,b.com".
  */
-const allowedDevOrigins = (process.env.DEV_ORIGINS ?? "circus-decrease-slug.ngrok-free.dev")
+const allowedDevOrigins = (process.env.DEV_ORIGINS ?? "alienable-wow-splice.ngrok-free.dev")
   .split(",")
   .map((h) => h.trim())
   .filter(Boolean);

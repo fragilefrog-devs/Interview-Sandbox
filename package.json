@@ -9,10 +9,12 @@
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "db:push": "drizzle-kit push",
-    "db:studio": "drizzle-kit studio"
+    "db:studio": "drizzle-kit studio",
+    "tunnel": "node scripts/tunnel.mjs"
   },
   "dependencies": {
     "@libsql/client": "^0.18.0",
+    "@ngrok/ngrok": "^1.7.0",
     "@vapi-ai/web": "^2.3.0",
     "better-auth": "^1.7.6",
     "drizzle-orm": "^0.45.3",
